@@ -1,12 +1,12 @@
 # Build Docker Image
 1. Run from node_app directory :
    ```bash
-   docker build -t <_name_> .
+   docker build -t <name> .
    ```
     OR
    Use if file is not Dockerfile
     ```bash
-    docker build -t <_name_> -f <_file name other than Dockerfile_> .
+    docker build -t <name> -f <file name other than Dockerfile> .
    ```
 
 # Check image
